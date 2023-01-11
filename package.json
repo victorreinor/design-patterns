@@ -1,10 +1,10 @@
 {
   "name": "design-patterns",
   "version": "1.0.0",
-  "description": "- São soluções elegantes para problemas conhecidos recorrentes no desenvolvimento de software que foram utilizados e testados no passado e continuam relevantes nos dias atuais. - Foram catalogados e popularizados pelo livro \"Padrões de projeto - Soluções reutilizaveis de software orientado a objetos\" (os padrões da \"GoF\", de 1994/95) - Categorias dos padrões de projetos:   - Criação (creational): que visam abstrair o processo de como objetos são criados na aplicação;   - Estruturais (structural): que lidam com a composição de classes e objetos;   - Comportamentais (behavioural): que caracterizam como as classes e objetos interagem e distribuem responsabilidades na aplicação. - São apenas sugestões de software;",
+  "description": "Estudo sobre design patterns",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
@@ -18,15 +18,16 @@
   },
   "homepage": "https://github.com/victorreinor/design-patterns#readme",
   "devDependencies": {
-    "@types/node": "^18.11.18",
-    "@types/validator": "^13.7.10",
-    "@typescript-eslint/eslint-plugin": "^5.48.0",
-    "@typescript-eslint/parser": "^5.48.0",
-    "eslint": "^8.31.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.1",
-    "ts-node": "^10.9.1",
-    "typescript": "^4.9.4"
+    "@types/node": "18.11.18",
+    "@types/validator": "13.7.10",
+    "@typescript-eslint/eslint-plugin": "5.48.0",
+    "@typescript-eslint/parser": "5.48.0",
+    "eslint": "8.31.0",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "git-cz": "4.9.0",
+    "prettier": "2.8.1",
+    "ts-node": "10.9.1",
+    "typescript": "4.9.4"
   }
 }
